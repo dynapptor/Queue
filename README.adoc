@@ -1,0 +1,27 @@
+= Queue Library
+:toc: left
+
+== Overview
+
+The Queue library provides a generic, circular queue implementation in C++ for Arduino and other embedded platforms. It is designed to store pointers to objects of any type, using a template-based approach. The queue operates in a first-in, first-out (FIFO) manner and is optimized for memory-constrained environments.
+
+== Features
+
+- **Generic Implementation**: Supports any data type via C++ templates.
+- **Circular Buffer**: Efficiently reuses memory with a fixed-size queue.
+- **Memory Management**: Handles pointers to objects, leaving object deallocation to the caller.
+- **Thread Safety**: Not thread-safe by default; use with caution in multi-threaded environments.
+
+== Installation
+
+1. Download the library from the repository.
+2. Extract the folder to your Arduino `libraries` directory.
+3. Include the library in your sketch with `#include <Queue.h>`.
+
+== Usage
+
+See the `examples` directory for sample code. A basic example is provided in the `README.md` and `example.ino`.
+
+== License
+
+MIT License. See `LICENSE` for details.

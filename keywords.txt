@@ -1,0 +1,10 @@
+# Syntax highlighting for Queue library
+
+Queue	KEYWORD1
+init	KEYWORD2
+add	KEYWORD2
+read	KEYWORD2
+peek	KEYWORD2
+isEmpty	KEYWORD2
+clear	KEYWORD2
+count	KEYWORD2
